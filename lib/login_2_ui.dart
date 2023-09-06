@@ -28,7 +28,7 @@ class _Login2UIState extends State<Login2UI> {
               ),
               Padding(
                 padding: EdgeInsets.only(
-                  right: MediaQuery.of(context).size.width * 0.7,
+                  right: MediaQuery.of(context).size.width * 0.68,
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -95,9 +95,11 @@ class _Login2UIState extends State<Login2UI> {
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
                       borderSide: BorderSide(
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
+                    filled: true,
+                    fillColor: Colors.white,
                   ),
                 ),
               ),
@@ -186,7 +188,7 @@ class _Login2UIState extends State<Login2UI> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'You Dont have an account  ?',
+                    'You Don\'t have an account  ?',
                     style: GoogleFonts.itim(
                       color: Colors.grey[600],
                       fontSize: MediaQuery.of(context).size.width * 0.035,

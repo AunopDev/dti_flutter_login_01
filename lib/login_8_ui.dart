@@ -22,12 +22,12 @@ class _Login4UIState extends State<Login8UI> {
       body: SingleChildScrollView(
         child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
                 padding: EdgeInsets.only(
-                  left: MediaQuery.of(context).size.width * 0.05,
-                  top: MediaQuery.of(context).size.width * 0.129,
+                  left: MediaQuery.of(context).size.width * 0.035,
+                  top: MediaQuery.of(context).size.width * 0.1,
                 ),
                 child: Row(
                   children: [
@@ -37,7 +37,7 @@ class _Login4UIState extends State<Login8UI> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => Login2UI(),
+                            builder: (context) => Login6UI(),
                           ),
                         );
                       },
@@ -55,7 +55,7 @@ class _Login4UIState extends State<Login8UI> {
               ),
               Padding(
                 padding: EdgeInsets.only(
-                  right: MediaQuery.of(context).size.width * 0.35,
+                  right: MediaQuery.of(context).size.width * 0.32,
                   left: MediaQuery.of(context).size.width * 0,
                 ),
                 child: Text(
@@ -177,7 +177,7 @@ class _Login4UIState extends State<Login8UI> {
                 child: Text(
                   'Social Media Login',
                   style: GoogleFonts.itim(
-                    fontSize: MediaQuery.of(context).size.width * 0.05,
+                    fontSize: MediaQuery.of(context).size.width * 0.04,
                     color: Colors.blue[200],
                   ),
                 ),
@@ -203,10 +203,10 @@ class _Login4UIState extends State<Login8UI> {
                     ),
                     style: ElevatedButton.styleFrom(
                       fixedSize: Size(
-                        MediaQuery.of(context).size.width * 0,
+                        MediaQuery.of(context).size.width * 0.15,
                         MediaQuery.of(context).size.height * 0.075,
                       ),
-                      backgroundColor: Colors.white,
+                      backgroundColor: Colors.grey[100],
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15)),
                     ),
@@ -224,15 +224,15 @@ class _Login4UIState extends State<Login8UI> {
                       ),
                     ),
                     icon: Icon(
-                      FontAwesomeIcons.facebookF,
+                      FontAwesomeIcons.facebook,
                       color: Colors.blue,
                     ),
                     style: ElevatedButton.styleFrom(
                       fixedSize: Size(
-                        MediaQuery.of(context).size.width * 0,
+                        MediaQuery.of(context).size.width * 0.15,
                         MediaQuery.of(context).size.height * 0.075,
                       ),
-                      backgroundColor: Colors.white,
+                      backgroundColor: Colors.grey[100],
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15)),
                     ),
@@ -255,10 +255,10 @@ class _Login4UIState extends State<Login8UI> {
                     ),
                     style: ElevatedButton.styleFrom(
                       fixedSize: Size(
-                        MediaQuery.of(context).size.width * 0,
+                        MediaQuery.of(context).size.width * 0.15,
                         MediaQuery.of(context).size.height * 0.075,
                       ),
-                      backgroundColor: Colors.white,
+                      backgroundColor: Colors.grey[100],
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15)),
                     ),

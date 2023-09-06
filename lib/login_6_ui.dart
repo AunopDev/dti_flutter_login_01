@@ -28,7 +28,7 @@ class _Login6UIState extends State<Login6UI> {
               ),
               Padding(
                 padding: EdgeInsets.only(
-                  right: MediaQuery.of(context).size.width * 0.45,
+                  right: MediaQuery.of(context).size.width * 0.44,
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -68,7 +68,7 @@ class _Login6UIState extends State<Login6UI> {
               Padding(
                 padding: EdgeInsets.only(
                   right: MediaQuery.of(context).size.width * 0,
-                  top: MediaQuery.of(context).size.width * 0.055,
+                  top: MediaQuery.of(context).size.width * 0.05,
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -102,7 +102,7 @@ class _Login6UIState extends State<Login6UI> {
                 child: TextField(
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(
-                    hintText: '   Enter email i"d',
+                    hintText: '   Enter email i\'d',
                     hintStyle: GoogleFonts.itim(
                       color: Colors.grey[600],
                     ),

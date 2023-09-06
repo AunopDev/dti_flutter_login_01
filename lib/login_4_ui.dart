@@ -91,6 +91,8 @@ class _Login4UIState extends State<Login4UI> {
                         color: Colors.grey,
                       ),
                     ),
+                    filled: true,
+                    fillColor: Colors.grey[200],
                   ),
                 ),
               ),
@@ -118,6 +120,16 @@ class _Login4UIState extends State<Login4UI> {
                       borderSide: BorderSide(
                         color: Colors.grey,
                       ),
+                    ),
+                    filled: true,
+                    fillColor: Colors.grey[200],
+                    suffixIcon: IconButton(
+                      icon: Icon(
+                        FontAwesomeIcons.solidEye,
+                        color: Colors.grey[600],
+                        size: MediaQuery.of(context).size.width * 0.04,
+                      ),
+                      onPressed: () {},
                     ),
                   ),
                 ),
@@ -258,13 +270,13 @@ class _Login4UIState extends State<Login4UI> {
                 ],
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.width * 0.2,
+                height: MediaQuery.of(context).size.width * 0.15,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Don"t have an account  ?',
+                    'Don\'t have an account ?',
                     style: GoogleFonts.itim(
                       color: Colors.grey[600],
                       fontSize: MediaQuery.of(context).size.width * 0.03,
